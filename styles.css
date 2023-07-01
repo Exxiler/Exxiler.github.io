@@ -73,6 +73,11 @@ body {
     line-height: normal;
 }
 
+p{
+  text-justify: inter-word;
+  line-height: normal;
+}
+
 .projectSvg{
     width: 225px;
     height: auto;
