@@ -10,6 +10,20 @@ body {
     line-height: 18px;
 }
 
+.notification-badge {
+    position: fixed;
+    top: 10px;
+    left: 46%; 
+    z-index: 9999;
+}
+  
+.badge {
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    /* border-radius: 50%; */
+}
+
 .navbar{
     background-color: #7575759d;
 }
@@ -28,7 +42,7 @@ body {
     background-size: cover;
 }
 
- .about-section {
+.about-section {
     position: relative;
     width: 100%;
     height: 10%;
@@ -53,67 +67,39 @@ body {
     color: white;
 } 
 
-  .custom-justify{
+.custom-justify{
     text-align: justify;
     text-justify: inter-word;
     line-height: normal;
-  }
+}
 
-  .section {
+.projectSvg{
+    width: 225px;
+    height: auto;
+}
+
+.section {
     position: relative;
     width: 100%;
     height: 10%;
     min-height: 100%;
     padding: 3em 0;
-  }
+}
 
-  /* .section:nth-child(odd):not(.masthead){
-    background: linear-gradient(to bottom, #111111, #a7a7a7);
-  }
-
-  .section:nth-child(even):not(.masthead){
-    background: linear-gradient(to bottom, #a7a7a7, #111111);
-  } */
-
-   .section:nth-child(odd):not(.masthead){
+.section:nth-child(even):not(.masthead){
     background: #111111;
-  }
-  
-  .section:nth-child(even):not(.masthead){
+}
+
+.section:nth-child(odd):not(.masthead){
     background: linear-gradient(to bottom, #111111 0%, #a7a7a7 100px, #a7a7a7 calc(100% - 100px), #111111 100%);
-  } 
+} 
 
- /*  .section:not(.masthead)::before,
-  .section:not(.masthead)::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 200px;
-  }  */
-  
-/*    .section:nth-child(odd):not(.masthead)::before {
-    background: linear-gradient(to bottom, #111111, #a7a7a7);
-    transform: translateY(-50%);
-    z-index: 1;
-  }  */
-  
-  /*  .section:nth-child(odd):not(.masthead)::after {
-    background: linear-gradient(to top,#111111, #a7a7a7);
-    transform: translateY(50%);
-    z-index: 1;
-  }  */
+.btn-github,
+.btn-linkedin {
+    transition: transform 0.3s ease;
+}
 
-/*   .section:nth-child(even):not(.masthead)::before {
-    background: linear-gradient(to bottom, #a7a7a7, #111111);
-    transform: translateY(-50%);
-    z-index: 1;
-  } */ 
-  
- /*   .section:nth-child(even):not(.masthead)::after {
-    background: linear-gradient(to bottom, #111111, #a7a7a7);
-    transform: translateY(50%);
-    z-index: 1;
-  }  */
+.btn-github:hover,
+.btn-linkedin:hover {
+    transform: scale(1.1);
+}
