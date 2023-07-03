@@ -1,4 +1,5 @@
 # Personal website built with bootstrap
+[Live view](https://exxiler.github.io)
 
 ![Project Screenshot](Screenshot.jpg)
 
