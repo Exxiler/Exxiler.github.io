@@ -34,12 +34,17 @@ body {
     height: 10%;
     min-height: 15rem;
     padding: 7rem 0;
+    min-width: ;
     background: linear-gradient(to top, #181818, #a7a7a7);
     /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../assets/img/bg-masthead.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+}
+
+.col-5 {
+  min-width: 400px;
 }
 
 .about-section {
